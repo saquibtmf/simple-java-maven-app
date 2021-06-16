@@ -33,13 +33,13 @@
   <distributionManagement>
     <repository>
         <id>central</id>
-        <name>LTIN124555-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release</url>
+        <name>Iterations</name>
+        <url>https://ha-us.dso.thermofisher.net/artifactory/pmseychelles-maven-dev</url>
     </repository>
     <snapshotRepository>
-      <id>snapshots</id>
-      <name>libs-snapshot</name>
-      <url>http://localhost:8081/artifactory/libs-snapshot</url>
+      <id>snapshot</id>
+      <name>Snapshots</name>
+      <url>https://ha-us.dso.thermofisher.net/artifactory/pmseychelles-maven-dev</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
