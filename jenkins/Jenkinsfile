@@ -8,6 +8,7 @@ pipeline {
 	maven "mvn3.6.1"
 	jdk "JDK-8u221"
     }
+}
     stages {
         stage('Build') {
             steps {
